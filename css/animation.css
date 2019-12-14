@@ -1,0 +1,51 @@
+@keyframes img1{
+    0%{
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1)
+    }
+    100%{
+        transform: scale(1.2)
+    }
+}
+@keyframes underLine1{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 160px;
+    }
+}
+
+@keyframes text1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes underLine2{
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+
+@keyframes background3{
+    0%{
+        /* background-color: #f2f2f2; */
+        /* background: #f2f2f2; */
+        /* background: linear-gradient(-257deg,#fff,#aff4f9 50%,#15c39a); */
+        /* transform: rotate3d(0); */
+        opacity: 0;
+    }
+    100%{
+        /* background: linear-gradient(-257deg,#fff,#aff4f9 50%,#15c39a); */
+        opacity: 1;
+    }
+}
